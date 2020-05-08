@@ -7,5 +7,5 @@ In this project, hand gestures (finger counts) are recognized from a live video 
 
 #### How to run
 
-To run approach 1: `python Approach1.py`
+To run approach 1: `python gesture_recognition_contours.py`
 To run approach 2: `python gesture_recognition_cnn.py`
