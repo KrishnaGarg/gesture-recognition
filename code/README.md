@@ -19,4 +19,6 @@ sklearn version- 0.22.1
 Once you have the required libraries, run the code using the following command python gesture_recognition_contours.py
 
 ##### Approach 2:
-To run use the following command: python gesture_recognition_cnn.py
+Example command:
+
+python gesture_recognition_cnn.py --model_name="VGG16" --learning_rate=0.0001 --batch_size=4 --epochs=20
