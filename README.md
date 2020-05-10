@@ -4,7 +4,8 @@
 Gesture recognition is the process of understanding and interpreting meaningful movements of the hands, arms, face, or sometimes head. It can help users to control or interact with devices without physically touching them. In this project, hand gestures (finger counts) are recognized from a live video sequence / images using Contours and Deep learning techniques.
 
 #### How to run
-##### Approach 1: It is advised to use the below versions for the following libraries for smooth running of the application.
+##### Approach 1: 
+It is advised to use the below versions for the following libraries for smooth running of the application.
 
 opencv version- 3.4.2
 
