@@ -26,8 +26,8 @@ def train():
     print("Using {0} with lr = {1} and batch size = {2}".format(args.model_name,args.learning_rate, args.batch_size))
 
     # Provide path names for data and folder names for classes
-    train_batches = ImageDataGenerator(rescale = 1.0/255.0).flow_from_directory('images/train', class_mode = 'categorical', classes = ['Gesture_0', 'Gesture_1', 'Gesture_2', 'Gesture_3', 'Gesture_4', 'Gesture_5', 'Gesture_6', 'Gesture_7', 'Gesture_8', 'Gesture_9'], batch_size = args.batch_size, target_size = (224, 224), shuffle=True)
-    validation_batches = ImageDataGenerator(rescale = 1.0/255.0).flow_from_directory('images/validate', class_mode = 'categorical', classes = ['Gesture_0', 'Gesture_1', 'Gesture_2', 'Gesture_3', 'Gesture_4', 'Gesture_5', 'Gesture_6', 'Gesture_7', 'Gesture_8', 'Gesture_9'], batch_size = args.batch_size, target_size = (224, 224), shuffle=True)
+    train_batches = ImageDataGenerator(rescale = 1.0/255.0).flow_from_directory('../misc/data/images/train', class_mode = 'categorical', classes = ['Gesture_0', 'Gesture_1', 'Gesture_2', 'Gesture_3', 'Gesture_4', 'Gesture_5', 'Gesture_6', 'Gesture_7', 'Gesture_8', 'Gesture_9'], batch_size = args.batch_size, target_size = (224, 224), shuffle=True)
+    validation_batches = ImageDataGenerator(rescale = 1.0/255.0).flow_from_directory('../misc/data/images/validate', class_mode = 'categorical', classes = ['Gesture_0', 'Gesture_1', 'Gesture_2', 'Gesture_3', 'Gesture_4', 'Gesture_5', 'Gesture_6', 'Gesture_7', 'Gesture_8', 'Gesture_9'], batch_size = args.batch_size, target_size = (224, 224), shuffle=True)
 
     # CNN architectures
     if args.model_name == 'ResNet152':
@@ -66,7 +66,7 @@ def train():
 
 def test():
     # Provide test folder and classes
-    test_batches = ImageDataGenerator(rescale = 1.0/255.0).flow_from_directory('images/test', class_mode = 'categorical', classes = ['Gesture_0', 'Gesture_1', 'Gesture_2', 'Gesture_3', 'Gesture_4', 'Gesture_5', 'Gesture_6', 'Gesture_7', 'Gesture_8', 'Gesture_9'], batch_size = args.batch_size, target_size = (224, 224), shuffle = True)
+    test_batches = ImageDataGenerator(rescale = 1.0/255.0).flow_from_directory('../misc/data/images/test', class_mode = 'categorical', classes = ['Gesture_0', 'Gesture_1', 'Gesture_2', 'Gesture_3', 'Gesture_4', 'Gesture_5', 'Gesture_6', 'Gesture_7', 'Gesture_8', 'Gesture_9'], batch_size = args.batch_size, target_size = (224, 224), shuffle = True)
 
     # load model
     model = load_model(model_name_to_save)
