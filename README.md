@@ -1,11 +1,11 @@
 # Hand-Gesture Recognition
 
-#### About
+### About
 Gesture recognition is the process of understanding and interpreting meaningful movements of the hands, arms, face, or sometimes head. It can help users to control or interact with devices without physically touching them. In this project, hand gestures are recognized from a live video sequence / images using Contours and Deep learning techniques.
 
-#### How to run
+### How to run
 
-##### Approach 1: 
+##### Approach 1:
 We used following the following versions:
 
 opencv - 3.4.2
@@ -28,3 +28,8 @@ Example command: python gesture_recognition_cnn.py --model_name="VGG16" --batch_
 The code has been implemented for only 4 models: VGG16, ResNet50, ResNet152, InceptionV3.
 
 For more details on the project, please refer to the presentation/ project report.
+
+### References
+The following references helped us a lot in this project
+1) https://gogul.dev/software/hand-gesture-recognition-p1 [https://gogul.dev/software/hand-gesture-recognition-p1]
+2) https://keras.io/api/applications/ [https://keras.io/api/applications/]
