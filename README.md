@@ -6,7 +6,7 @@ Gesture recognition is the process of understanding and interpreting meaningful 
 ### How to run
 
 ##### Approach 1:
-We used following the following versions:
+We used the following libraries and versions:
 
 opencv - 3.4.2
 
