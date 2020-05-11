@@ -30,6 +30,6 @@ The code has been implemented for only 4 models: VGG16, ResNet50, ResNet152, Inc
 For more details on the project, please refer to the presentation/ project report.
 
 ### References
-The following references helped us a lot in this project
-1) https://gogul.dev/software/hand-gesture-recognition-p1 [https://gogul.dev/software/hand-gesture-recognition-p1]
-2) https://keras.io/api/applications/ [https://keras.io/api/applications/]
+The following links helped us a lot in moving forward in this project
+1) [https://gogul.dev/software/hand-gesture-recognition-p1] (https://gogul.dev/software/hand-gesture-recognition-p1)
+2) [https://keras.io/api/applications/] (https://keras.io/api/applications/)
