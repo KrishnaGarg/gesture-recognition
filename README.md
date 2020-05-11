@@ -31,5 +31,5 @@ For more details on the project, please refer to the presentation/ project repor
 
 ### References
 The following links helped us a lot in moving forward in this project
-1) [https://gogul.dev/software/hand-gesture-recognition-p1] (https://gogul.dev/software/hand-gesture-recognition-p1)
-2) [https://keras.io/api/applications/] (https://keras.io/api/applications/)
+1) [https://gogul.dev/software/hand-gesture-recognition-p1](https://gogul.dev/software/hand-gesture-recognition-p1)
+2) [https://keras.io/api/applications/](https://keras.io/api/applications/)
