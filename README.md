@@ -6,17 +6,25 @@ Gesture recognition is the process of understanding and interpreting meaningful 
 #### How to run
 
 ##### Approach 1: 
-It is advised to use the below versions for the following libraries for smooth running of the application.
+We used following the following versions:
 
-opencv version- 3.4.2
+opencv - 3.4.2
 
-imutils version- 0.4.6
+imutils - 0.4.6
 
-numpy version- 1.18.1
+numpy - 1.18.1
 
-sklearn version- 0.22.1
+sklearn - 0.22.1
 
-Once you have the required libraries, run the code using the following command python gesture_recognition_contours.py
+Once you have the required libraries, run the code using the following command:
+
+python gesture_recognition_contours.py
 
 ##### Approach 2:
-To run use the following command: python gesture_recognition_cnn.py
+keras version - v2.3.1
+
+Example command: python gesture_recognition_cnn.py --model_name="VGG16" --batch_size=4 --learning_rate=0.0001 --epochs=20
+
+The code has been implemented for only 4 models: VGG16, ResNet50, ResNet152, InceptionV3.
+
+For more details on the project, please refer to the presentation/ project report.
